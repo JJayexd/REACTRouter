@@ -1,19 +1,19 @@
 import styled from 'styled-components';
 
 export const NavSCSS = styled.nav`
-    display: block;
-
     ul {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         list-style: none;
         li{
             display: block;
-            margin: 1rem;
         }
-    }
-
-    &.active {
-        border: 0px 0px 2px 0px black;
+            a {
+            text-decoration: none;
+            } &:active {
+                color: white;
+                border: 0px 0px 4px 0px black;
+            }
     }
 `
