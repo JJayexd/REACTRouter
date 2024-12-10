@@ -1,5 +1,9 @@
+import { HomeSCSS } from './HomePage.Styled';
+
 export const HomePage = () => {
     return (
-        <h1>Dette er REACT</h1>
+        <HomeSCSS>
+            <h1>Dette er REACT</h1>
+        </HomeSCSS>
     )
 }
