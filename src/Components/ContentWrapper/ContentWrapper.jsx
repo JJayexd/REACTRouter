@@ -3,7 +3,7 @@ export const ContentWrapper = ({ title, subtitle, description, children }) => {
     document.title = title;
 
     if(description) {
-        document.querySelector('meta=[name="description"]')
+        document.querySelector('meta[name="description"]')
         .setAttribute('content', description)
     }
 
